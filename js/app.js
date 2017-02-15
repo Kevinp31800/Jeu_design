@@ -3,7 +3,7 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create
 
 function preload() {
 
-	game.load.image('sky', '../assets/sky.png');
+	game.load.image('sky', '../assets/funny-jim-carrey-wrapped-with-tape.png');
 	game.load.image('ground', '../assets/platform.png');
 	game.load.image('star', '../assets/sprite.png');
 	game.load.spritesheet('dude', '../assets/harry_potter.png', 33, 48);
